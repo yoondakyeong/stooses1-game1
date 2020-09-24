@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>숫자세기-스투스뜨</title>
+	<link rel="stylesheet" href="./style.css">
+	<style type="text/css">
+		 @font-face { font-family: 'Binggrae'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Binggrae.woff') format('woff'); font-weight: normal; font-style: normal; }
+		 .numwrap{
+			position: absolute;
+    		transform: translate(-50%,-50%);
+    		top: 50%;
+    		left: 50%;
+			}
+	</style>
+</head>
+<body id="index-game-one">
+	<div id="pageone" class="pageboxes">
+
+		<head>
+			<div class="head-left-icons">
+				<a href="./indextwo.html">
+					<img class="icon-tops" src="./game1/icon-top-left.png">
+				</a>
+			</div>
+			<div class="head-right-icons">
+				<a href="game1page.html">
+					<img class="icon-tops" src="./game1/icon-top-right-one.png">
+				</a>
+
+				<a href="game102page.html">
+					<img class="icon-tops" src="./game1/icon-top-right-two.png">
+				</a>
+
+				<a href="game103page.html">
+					<img class="icon-tops" src="./game1/icon-top-right-three.png">
+				</a>
+			</div>
+		</head>
+
+		<div>
+			
+			<img class="gameone-one-th" src="./game1/th-one.png">
+			<img class="gameone-two-th" src="./game1/th-two.png">
+			<img class="gameone-three-th" src="./game1/th-three.png">
+
+			<img class="gameone-one-th copy-two" id="chthone" src="./game1/th-one-two.png">
+			<img class="gameone-two-th copy-two" id="chthtwo" src="./game1/th-two-two.png">
+			<img class="gameone-three-th copy-two" id="chththree" src="./game1/th-three-two.png">
+
+			<img class="gameone-text" id="gametone" src="./game1/img-text.png">
+			<img class="gameone-textes" id="gametonetes" src="./game1/img-textes.png">
+			<script type="text/javascript">
+			gametone.onclick=function(){
+				gametone.style.visibility='hidden';
+				gametonetes.style.visibility='visible';
+
+				chthone.style.visibility='visible';
+				chthtwo.style.visibility='visible';
+				chththree.style.visibility='visible';
+			}
+			gametonetes.onclick=function(){
+				gametone.style.visibility='visible';
+				gametonetes.style.visibility='hidden';
+
+				chthone.style.visibility='hidden';
+				chthtwo.style.visibility='hidden';
+				chththree.style.visibility='hidden';
+			}
+
+			</script>
+			<div class="num-red-wrap">
+				<img class="num-reds" id="numred0" src="./game1/num-red/z.png">
+				<img class="num-reds" id="numred1" src="./game1/num-red/one.png">
+				<img class="num-reds" id="numred2" src="./game1/num-red/two.png">
+				<img class="num-reds" id="numred3" src="./game1/num-red/three.png">
+				<img class="num-reds" id="numred4" src="./game1/num-red/four.png">
+				<img class="num-reds" id="numred5" src="./game1/num-red/five.png">
+				<img class="num-reds" id="numred6" src="./game1/num-red/six.png">
+				<img class="num-reds" id="numred7" src="./game1/num-red/seven.png">
+				<img class="num-reds" id="numred8" src="./game1/num-red/eight.png">
+				<img class="num-reds" id="numred9" src="./game1/num-red/nine.png">
+				<img class="num-reds" id="numred10" src="./game1/num-red/ten.png">
+
+				<img class="gameone-icon-last" id="goodimg" src="./game1/icon-last.png">
+				<!--
+				<img class="num-reds" src="./game1/num-red/eleven.png">
+				<img class="num-reds" src="./game1/num-red/twelve.png">
+				<img class="num-reds" src="./game1/num-red/thirteen.png">
+				<img class="num-reds" src="./game1/num-red/fourteen.png">
+				<img class="num-reds" src="./game1/num-red/fifteen.png">
+				<img class="num-reds" src="./game1/num-red/sixteen.png">
+				<img class="num-reds" src="./game1/num-red/seventeen.png">
+				<img class="num-reds" src="./game1/num-red/eighteen.png">
+				<img class="num-reds" src="./game1/num-red/nineteen.png">
+				<img class="num-reds" src="./game1/num-red/twenty.png">
+			-->
+			</div>
+
+		</div>
+
+		<bottom id="game-one-bottom" class="wrap">
+			<!--
+			<img class="icon-bottom-left" src="./game1/icon-bottom-left.png">
+			<img class="icon-bottom-right" src="./game1/icon-bottom-right.png">
+			-->
+		
+			<div class="numwrap item">
+
+				<img class="numes" id="num0" src="./game1/num/z.png">
+				<img class="numes" id="num1" src="./game1/num/one.png">
+				<img class="numes" id="num2" src="./game1/num/two.png">
+				<img class="numes" id="num3" src="./game1/num/three.png">
+				<img class="numes" id="num4" src="./game1/num/four.png">
+				<img class="numes" id="num5" src="./game1/num/five.png">
+				<img class="numes" id="num6" src="./game1/num/six.png">
+				<img class="numes" id="num7" src="./game1/num/seven.png">
+				<img class="numes" id="num8" src="./game1/num/eight.png">
+				<img class="numes" id="num9" src="./game1/num/nine.png">
+				<img class="numes numeslast" id="num10" src="./game1/num/ten.png">
+				
+				<!--
+				<img class="numes" src="./game1/num/eleven.png">
+				<img class="numes" src="./game1/num/twelve.png">
+				<img class="numes" src="./game1/num/thirteen.png">
+				<img class="numes" src="./game1/num/fourteen.png">
+				<img class="numes" src="./game1/num/fifteen.png">
+				<img class="numes" src="./game1/num/sixteen.png">
+				<img class="numes" src="./game1/num/seventeen.png">
+				<img class="numes" src="./game1/num/eighteen.png">
+				<img class="numes" src="./game1/num/nineteen.png">
+				<img class="numes numeslast" src="./game1/num/twenty.png">
+			-->
+			
+			<!--버튼, 숫자나오게-->
+				<script type="text/javascript">
+					var a=0;
+						a++;
+					
+
+					num0.onclick=function(){
+						numred0.style.display='block';
+						num0.style.opacity='0.5';
+						num0.style.cursor='initial';
+						a++;
+						if(a == 12){
+							goodimg.style.opacity='1';
+							}
+						}
+
+					num1.onclick=function(){
+						numred1.style.display='block';
+						num1.style.opacity='0.5';
+						num1.style.cursor='initial';
+						a++;
+						if(a == 12){
+							goodimg.style.opacity='1';
+							}
+						}
+
+					num2.onclick=function(){
+						numred2.style.display='block';
+						num2.style.opacity='0.5';
+						num2.style.cursor='initial';
+						a++;
+						if(a == 12){
+							goodimg.style.opacity='1';
+							}
+						}
+
+					num3.onclick=function(){
+						numred3.style.display='block';
+						num3.style.opacity='0.5';
+						num3.style.cursor='initial';
+						a++;
+						if(a == 12){
+							goodimg.style.opacity='1';
+							}
+						}
+
+					num4.onclick=function(){
+						numred4.style.display='block';
+						num4.style.opacity='0.5';
+						num4.style.cursor='initial';
+						a++;
+						if(a == 12){
+							goodimg.style.opacity='1';
+							}
+						}
+
+					num5.onclick=function(){
+						numred5.style.display='block';
+						num5.style.opacity='0.5';
+						num5.style.cursor='initial';
+						a++;
+						if(a == 12){
+							goodimg.style.opacity='1';
+							}
+						}
+
+					num6.onclick=function(){
+						numred6.style.display='block';
+						num6.style.opacity='0.5';
+						num6.style.cursor='initial';
+						a++;
+						if(a == 12){
+							goodimg.style.opacity='1';
+							}
+						}
+
+					num7.onclick=function(){
+						numred7.style.display='block';
+						num7.style.opacity='0.5';
+						num7.style.cursor='initial';
+						a++;
+						if(a == 12){
+							goodimg.style.opacity='1';
+							}
+						}
+
+					num8.onclick=function(){
+						numred8.style.display='block';
+						num8.style.opacity='0.5';
+						num8.style.cursor='initial';
+						a++;
+						if(a == 12){
+							goodimg.style.opacity='1';
+							}
+						}
+
+					num9.onclick=function(){
+						numred9.style.display='block';
+						num9.style.opacity='0.5';
+						num9.style.cursor='initial';
+						a++;
+						if(a == 12){
+							goodimg.style.opacity='1';
+							}
+						}
+						
+					num10.onclick=function(){
+						numred10.style.display='block';
+						num10.style.opacity='0.5';
+						num10.style.cursor='initial';
+						a++;
+						if(a == 12){
+							goodimg.style.opacity='1';
+							}
+						}
+
+			
+					
+					
+
+
+				
+				</script>
+
+
+
+
+
+				<!--아래, 마우스 -->
+				<script type="text/javascript"> 
+					var _wrap = document.querySelector(".wrap")
+					var _item = document.querySelector(".item")
+					var scrollCount = 0;
+
+					_wrap.addEventListener("mousewheel",function(e){
+					if(e.deltaY<0){
+					scrollCount -= 15
+					_wrap.scrollLeft = scrollCount
+					}
+					else if(e.deltaY>0){
+					scrollCount += 15
+					_wrap.scrollLeft = scrollCount
+					}
+					})
+
+				</script>
+			</div>
+
+		</bottom>
+
+
+	</div>
+</body>
+</html>

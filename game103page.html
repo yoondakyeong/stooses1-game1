@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>숫자세기-스투스뜨3</title>
+	<link rel="stylesheet" href="./style.css">
+	<style type="text/css">
+		 @font-face { font-family: 'Binggrae'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Binggrae.woff') format('woff'); font-weight: normal; font-style: normal; }
+		 .numwrap{
+			position: absolute;
+    		transform: translate(-0%,-50%);
+    		top: 50%;
+    		left: 0%;
+			}
+	</style>
+</head>
+<body id="index-game-one">
+	<div id="pageone" class="pageboxes">
+
+		<head>
+			<div class="head-left-icons">
+				<a href="./indextwo.html">
+					<img class="icon-tops" src="./game1/icon-top-left.png">
+				</a>
+			</div>
+			<div class="head-right-icons">
+				<a href="game1page.html">
+					<img class="icon-tops" src="./game1/icon-top-right-one.png">
+				</a>
+
+				<a href="game102page.html">
+					<img class="icon-tops" src="./game1/icon-top-right-two.png">
+				</a>
+
+				<a href="game103page.html">
+					<img class="icon-tops" src="./game1/icon-top-right-three.png">
+				</a>
+			</div>
+		</head>
+
+		<div>
+			
+			<img class="gameone-one-th" src="./game1/th-one.png">
+			<img class="gameone-two-th" src="./game1/th-two.png">
+			<img class="gameone-three-th" src="./game1/th-three.png">
+
+			<img class="gameone-one-th copy-two" id="chthone" src="./game1/th-one-two.png">
+			<img class="gameone-two-th copy-two" id="chthtwo" src="./game1/th-two-two.png">
+			<img class="gameone-three-th copy-two" id="chththree" src="./game1/th-three-two.png">
+
+			<img class="gameone-text" id="gametone" src="./game1/img-text.png">
+			<img class="gameone-textes" id="gametonetes" src="./game1/img-textes.png">
+			<script type="text/javascript">
+			gametone.onclick=function(){
+				gametone.style.visibility='hidden';
+				gametonetes.style.visibility='visible';
+
+				chthone.style.visibility='visible';
+				chthtwo.style.visibility='visible';
+				chththree.style.visibility='visible';
+			}
+			gametonetes.onclick=function(){
+				gametone.style.visibility='visible';
+				gametonetes.style.visibility='hidden';
+
+				chthone.style.visibility='hidden';
+				chthtwo.style.visibility='hidden';
+				chththree.style.visibility='hidden';
+			}
+
+			</script>
+			<div class="num-red-wrap">
+			
+				<img class="num-reds" id="numrr10" src="./game1/num-red/ten.png">
+				<img class="num-reds" id="numrr20" src="./game1/num-red/twenty.png">
+				<img class="num-reds" id="numr30" src="./game1/num-red/thirty.png">
+				<img class="num-reds" id="numr40" src="./game1/num-red/forty.png">
+				<img class="num-reds" id="numr50" src="./game1/num-red/fifty.png">
+				<img class="num-reds" id="numr60" src="./game1/num-red/sixty.png">
+				<img class="num-reds" id="numr70" src="./game1/num-red/seventy.png">
+				<img class="num-reds" id="numr80" src="./game1/num-red/eighty.png">
+				<img class="num-reds" id="numr90" src="./game1/num-red/ninety.png">
+				<img class="num-reds" id="numr100" src="./game1/num-red/hundred.png">
+
+				<img class="gameone-icon-last" id="goodimg2" src="./game1/icon-last.png">
+			
+			</div>
+
+		</div>
+
+		<bottom id="game-one-bottom" class="wrap">
+			<!--
+			<img class="icon-bottom-left" src="./game1/icon-bottom-left.png">
+			<img class="icon-bottom-right" src="./game1/icon-bottom-right.png">
+			-->
+		
+			<div class="numwrap item">
+				<img class="numes" id="num110" src="./game1/num/ten.png">
+				<img class="numes" id="num220" src="./game1/num/twenty.png">
+				<img class="numes" id="num30" src="./game1/num/thirty.png">
+				<img class="numes" id="num40" src="./game1/num/forty.png">
+				<img class="numes" id="num50" src="./game1/num/fifty.png">
+				<img class="numes" id="num60" src="./game1/num/sixty.png">
+				<img class="numes" id="num70" src="./game1/num/seventy.png">
+				<img class="numes" id="num80" src="./game1/num/eighty.png">
+				<img class="numes" id="num90" src="./game1/num/ninety.png">
+				<img class="numes numeslast" id="num100"  src="./game1/num/hundred.png">
+		
+			<!--버튼, 숫자나오게-->
+				<script type="text/javascript">
+					var b=0;
+						b++;
+					
+
+					num110.onclick=function(){
+						numrr10.style.display='block';
+						num110.style.opacity='0.5';
+						num110.style.cursor='initial';
+						b++;
+						if(b == 11){
+							goodimg2.style.opacity='1';
+							}
+						}
+
+					num220.onclick=function(){
+						numrr20.style.display='block';
+						num220.style.opacity='0.5';
+						num220.style.cursor='initial';
+						b++;
+						if(b == 11){
+							goodimg2.style.opacity='1';
+							}
+						}
+
+					num30.onclick=function(){
+						numr30.style.display='block';
+						num30.style.opacity='0.5';
+						num30.style.cursor='initial';
+						b++;
+						if(b == 11){
+							goodimg2.style.opacity='1';
+							}
+						}
+
+					num40.onclick=function(){
+						numr40.style.display='block';
+						num40.style.opacity='0.5';
+						num40.style.cursor='initial';
+						b++;
+						if(b == 11){
+							goodimg2.style.opacity='1';
+							}
+						}
+
+					num50.onclick=function(){
+						numr50.style.display='block';
+						num50.style.opacity='0.5';
+						num50.style.cursor='initial';
+						b++;
+						if(b == 11){
+							goodimg2.style.opacity='1';
+							}
+						}
+
+					num60.onclick=function(){
+						numr60.style.display='block';
+						num60.style.opacity='0.5';
+						num60.style.cursor='initial';
+						b++;
+						if(b == 11){
+							goodimg2.style.opacity='1';
+							}
+						}
+
+					num70.onclick=function(){
+						numr70.style.display='block';
+						num70.style.opacity='0.5';
+						num70.style.cursor='initial';
+						b++;
+						if(b == 11){
+							goodimg2.style.opacity='1';
+							}
+						}
+
+					num80.onclick=function(){
+						numr80.style.display='block';
+						num80.style.opacity='0.5';
+						num80.style.cursor='initial';
+						b++;
+						if(b == 11){
+							goodimg2.style.opacity='1';
+							}
+						}
+
+					num90.onclick=function(){
+						numr90.style.display='block';
+						num90.style.opacity='0.5';
+						num90.style.cursor='initial';
+						b++;
+						if(b == 11){
+							goodimg2.style.opacity='1';
+							}
+						}
+
+					num100.onclick=function(){
+						numr100.style.display='block';
+						num100.style.opacity='0.5';
+						num100.style.cursor='initial';
+						b++;
+						if(b == 11){
+							goodimg2.style.opacity='1';
+							}
+						}
+					
+					
+
+
+				
+				</script>
+
+
+
+
+
+				<!--아래, 마우스 -->
+				<script type="text/javascript"> 
+					var _wrap = document.querySelector(".wrap")
+					var _item = document.querySelector(".item")
+					var scrollCount = 0;
+
+					_wrap.addEventListener("mousewheel",function(e){
+					if(e.deltaY<0){
+					scrollCount -= 15
+					_wrap.scrollLeft = scrollCount
+					}
+					else if(e.deltaY>0){
+					scrollCount += 15
+					_wrap.scrollLeft = scrollCount
+					}
+					})
+
+				</script>
+			</div>
+
+		</bottom>
+
+
+	</div>
+</body>
+</html>
